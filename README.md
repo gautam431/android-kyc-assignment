@@ -48,7 +48,7 @@ An Android application for a digital banking platform built with Kotlin.
 
 | Accounts Screen | Account Details | Camera Screen |
 |---|---|---|
-| ![Accounts](screenshots/accounts.png) | ![Details](screenshots/details.png) | ![Camera](screenshots/camera.png) |
+| ![Accounts](screenshots/accounts.png) | ![Details](screenshots/accountdetails.png) | ![Camera](screenshots/camera.png) |
 
 ## Setup
 
