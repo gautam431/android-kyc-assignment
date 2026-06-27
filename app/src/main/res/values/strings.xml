@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Digital Bank KYC</string>
+    <string name="verified">VERIFIED</string>
+    <string name="pending">PENDING</string>
+    <string name="do_kyc">Do KYC</string>
+    <string name="tab_verified">Verified</string>
+    <string name="tab_pending">Pending</string>
+    <string name="search_hint">Search name or account number</string>
+    <string name="account_details">Account Details</string>
+    <string name="capture_selfie">Capture Selfie</string>
+    <string name="retake_selfie">Re-take Selfie</string>
+    <string name="loading">Loading...</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="camera_permission_denied">Camera permission is required for KYC</string>
+</resources>

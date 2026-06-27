@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/accountsFragment">
+
+    <fragment
+        android:id="@+id/accountsFragment"
+        android:name="com.example.digitalbankkyc.ui.accounts.AccountsFragment"
+        android:label="Accounts">
+
+        <action
+            android:id="@+id/action_accounts_to_detail"
+            app:destination="@id/accountDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/accountDetailFragment"
+        android:name="com.example.digitalbankkyc.ui.details.AccountDetailFragment"
+        android:label="Account Details">
+
+        <argument
+            android:name="customerId"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_detail_to_camera"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.digitalbankkyc.ui.camera.CameraFragment"
+        android:label="Capture Selfie">
+
+        <argument
+            android:name="customerId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
